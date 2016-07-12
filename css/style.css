@@ -1,0 +1,71 @@
+html {
+	box-sizing: border-box;
+} 
+body {
+	height: 100vh;
+	overflow: auto;
+}
+.content {
+	width: 19em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.top-section {
+	height: 65%;
+	width: 100%;
+	background-color: #d9d9d9;
+	padding-top: 0.01em;
+}
+.top-section .content {
+	position: relative;
+	top: 10vh;
+}
+
+.middle-section {
+	height: 28%;
+	width: 100%;
+	background-color: black;
+	padding-top: 0.1em;
+	color: white;
+}
+.middle-section .content {
+	position: relative;
+	top: 7vh;
+}
+
+h1 {
+	margin-top: 0;
+	font-family: 'Architects Daughter', cursive;
+}
+h4, p {
+	margin: 0.35em auto;
+	font-family: 'Maven Pro', sans-serif;
+	letter-spacing: 0.05em;
+}
+
+.picture {
+	height: 10em;
+	width: 10em;
+	border-radius: 6em;
+	border: 7px solid #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 1em;
+}
+.gray{
+	color: #737373;
+}
+.title {
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 1.25em;
+}
+footer {
+	height: 7%;
+	width: 100%;
+	background-image: url('../image/map-ethiopia.gif');
+	background-repeat: no-repeat;
+	background-position-y: 58%;
+	background-position-x: 50%;
+	background-color: #ffefff;
+}
